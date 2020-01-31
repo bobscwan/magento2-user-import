@@ -1,0 +1,7 @@
+.box-content.flex{
+    display:flex;
+}
+
+.box-content.flex > div{
+    padding: 10px;
+}

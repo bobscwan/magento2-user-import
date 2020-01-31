@@ -1,0 +1,11 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <expertime_import>
+            <general>
+                <use_https>1</use_https>
+                <end_point>reqres.in/api/users</end_point>
+                <timeout>2</timeout>
+            </general>
+        </expertime_import>
+    </default>
+</config>

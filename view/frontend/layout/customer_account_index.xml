@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Expertime_Import::css/avatar.css"/>
+    </head>
+    <body>
+        <referenceBlock name="customer_account_dashboard_info" template="Expertime_Import::account/dashboard/info.phtml"/>  
+    </body>
+</page>

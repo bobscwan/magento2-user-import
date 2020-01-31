@@ -1,1 +1,6 @@
-# magento2-user-import
+#Installation
+
+- composer
+'''
+composer require expertime/import
+'''

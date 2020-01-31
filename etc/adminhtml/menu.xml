@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Expertime_Import::import_user" title="Import User" translate="title" module="Expertime_Import" sortOrder="50" parent="Magento_Backend::system_convert" action="expertime/import/index" resource="Expertime_Import::import"/>
+    </menu>
+</config>
