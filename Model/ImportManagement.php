@@ -59,7 +59,11 @@ class ImportManagement implements \Expertime\Import\Api\ImportManagementInterfac
         $this->_encryption = $encryption; 
         $this->_logger = $logger;
     }
-
+    /*
+    * create/update user account from API
+    * @var array $data
+    * @return bool
+    */
     public function createCustomers($data){
         if(!isset($data['data']) || count($data['data']) == 0 )
             return false;
@@ -113,7 +117,7 @@ class ImportManagement implements \Expertime\Import\Api\ImportManagementInterfac
             
         }catch(Exception $e){
             //skip the rest of the update
-            $this->logger->critical('Error message', ['exception' => $e]);
+            $this->_logger->critical('Error message', ['exception' => $e]);
             return false;
         }
         return true;
