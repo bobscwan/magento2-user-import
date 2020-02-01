@@ -3,6 +3,7 @@
 ## composer
 
 ```
+composer config repositories.repo-name vcs https://github.com/bobscwan/magento2-user-import
 composer require expertime/import
 ```
 
